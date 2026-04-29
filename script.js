@@ -47,4 +47,4 @@ function checkTrack() {
         resultArea.style.display = "block";
         resultArea.innerHTML = `<p style="color: red;">ID Not Found. Try <strong>TRK001</strong> or <strong>EMPEROR-001</strong></p>`;
     }
-}
+}"EMP-888": { status: "Out for Delivery", location: "Lekki, Lagos", date: "Today", type: "Bike Express" },
