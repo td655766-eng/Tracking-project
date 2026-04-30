@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
-<head><link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Track Your Package</title>
+    <title>Emperor's Logistics</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>Emperor's Logistics</h1> 
-        <p>Enter your tracking number below to see the status of your shipment.</p>
+        <h1>Emperor's Logistics</h1>
+        <p>Enter tracking number below</p>
 
-        <input type="text" id="trackingInput" placeholder="e.g. TRK123456">
+        <input type="text" id="trackingInput" placeholder="e.g. TRK001">
         <button onclick="checkTrack()">Track Now</button>
 
-        <div id="statusResult" style="margin-top: 20px; font-weight: bold; color: #003366;">
-           <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
-<p style="font-size: 12px; color: #888;">
-    Need help? Contact <a href="mailto:support@emperorslogistics.com" style="color: #003366; text-decoration: none; font-weight: bold;">Support</a>
-</p> </div>
+        <div id="statusResult"></div>
+
+        <hr style="margin-top: 20px;">
+        <p style="font-size: 12px;">Need help? Contact Support</p>
     </div>
 
+    <script src="script.js"></script>
 </body>
-</html><script src="script.js"></script>
+</html>
